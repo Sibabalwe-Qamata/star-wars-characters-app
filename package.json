@@ -1,0 +1,32 @@
+{
+  "name": "star-wars-characters-app",
+  "version": "1.0.0",
+  "description": "App that lists star wars characters",
+  "main": "server.js",
+  "scripts": {
+   "start": "node server.js",
+   "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sibabalwe-Qamata/star-wars-characters-app.git"
+  },
+  "keywords": [
+    "starwars"
+  ],
+  "author": "Sibabalwe Qamata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sibabalwe-Qamata/star-wars-characters-app/issues"
+  },
+  "homepage": "https://github.com/Sibabalwe-Qamata/star-wars-characters-app#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
